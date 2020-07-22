@@ -26,7 +26,7 @@ public class ApplicationClient {
            }
        }
        englishDictionary.Update("Hello","A warning sign");
-       System.out.println("Reading Hello - " + englishDictionary.read("Hello").definition);
+       System.out.println("Reading Hello  - " + englishDictionary.read("Hello").definition);
        englishDictionary.insert("Halo","A video game");
        aMap= englishDictionary.aDictionary;
        for(Map.Entry<String,LinkedList<EnglishDictionary.DictionaryEntry>> entry:aMap.entrySet())
