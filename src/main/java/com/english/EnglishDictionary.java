@@ -11,6 +11,7 @@ public class EnglishDictionary {
     }
     public void insert(String value,String description)
     {
+        
         LinkedList insertLinkedList= this.aDictionary.get(String.valueOf(value.charAt(0)));
         if(insertLinkedList!=null)
         {
